@@ -8,7 +8,7 @@ This repository contains the source code, pre-trained models, as well as instruc
 
 ### Video Presentation: 
 
-<p align="center"><a href="https://www.youtube.com/watch?v=64K27VwGhs4"><img src="https://yt-embed.herokuapp.com/embed?v=64K27VwGhs4" alt="Time-aware Large Kernel Convolutions (ICML 2020)"></a></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=64K27VwGhs4" target="_blank"><img src="https://yt-embed.herokuapp.com/embed?v=64K27VwGhs4" alt="Time-aware Large Kernel Convolutions (ICML 2020)"></a></p>
 
 
 ## Citation:
