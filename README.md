@@ -6,6 +6,10 @@ This repository contains the source code, pre-trained models, as well as instruc
 
 **TaLK Convolutions** is a sequence modeling method that uses an adaptive convolution operation that learns to predict the size of a summation kernel instead of using a fixed-sized learnable kernel matrix. It utilizes a fast parallelized implementation of the summed-area table, also known as the integral image operation, to efficiently calculate the convolution output that uses the summation kernel. We generate relative offsets for each timestep of the input sequence, which are used to adaptively expand the size of the summation kernel conditioned on the input. This method yields a time complexity of O(n), effectively making the sequence encoding process linear to the number of tokens.
 
+### Video Presentation: 
+
+<p align="center"><a href="https://www.youtube.com/watch?v=64K27VwGhs4"><img src="https://yt-embed.herokuapp.com/embed?v=64K27VwGhs4" alt="Time-aware Large Kernel Convolutions (ICML 2020)"></a></p>
+
 
 ## Citation:
 
