@@ -9,7 +9,6 @@ except ImportError:
 
 class TaLKConvolutionEncoderFunction(torch.autograd.Function):
   @staticmethod
-  @amp.float_function
   def forward(ctx, input_x, offset_left, offset_right, max_left, max_right):
     output = talkconv_cuda.talk_convolution_encoder_forward(input_x, offset_left, offset_right, max_left, max_right)
 
@@ -33,7 +32,6 @@ class TaLKConvolutionEncoderFunction(torch.autograd.Function):
 
 class TaLKConvolutionDecoderFunction(torch.autograd.Function):
   @staticmethod
-  @amp.float_function
   def forward(ctx, input_x, offset_left, max_left):
     output = talkconv_cuda.talk_convolution_decoder_forward(input_x, offset_left, max_left)
 
