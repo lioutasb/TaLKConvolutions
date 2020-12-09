@@ -27,7 +27,7 @@ This repository contains the source code, pre-trained models, as well as instruc
 ### Requirements
 
 * [PyTorch](http://pytorch.org/) version >= 1.3.1
-* [fairseq](https://github.com/pytorch/fairseq) version >= 0.9.0
+* [fairseq](https://github.com/pytorch/fairseq) version >= 0.10.1
 * Python version >= 3.6
 * CUDA >= 10.1
 * NVIDIA's [apex](https://github.com/NVIDIA/apex) library (for mixed-precision training)
